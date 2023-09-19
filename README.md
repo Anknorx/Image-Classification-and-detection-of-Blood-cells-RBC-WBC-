@@ -1,1 +1,2 @@
 # Image-Classification-and-detection-of-Blood-cells-RBC-WBC-
+This project is to implement image processing to classify and detect RBC and WBC in blood microscopic pics, it does image enhancements , morphological operations then image segmentation. THis is a comparision of two filter one elliptical second merge of elliptical and circular to increase accuracy. The accuracy came out to be 92% and 96% simultaneously.
