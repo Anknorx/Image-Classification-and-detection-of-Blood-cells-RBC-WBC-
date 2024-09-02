@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Developmet') {
+            steps {
+                echo 'Hello World Development'
+                bat 'git clone https://github.com/Anknorx/Image-Classification-and-detection-of-Blood-cells-RBC--.git'
+            }
+            
+        }
+            stage('UAT') {
+            steps {
+                echo 'Hello World UAT'
+            }
+            }
+            stage('PreProd') {
+            steps {
+                echo 'Hello World PreProd'
+            }
+        }
+    }
+    
+}
